@@ -1,6 +1,6 @@
 from agents import Agent, Runner, AsyncOpenAI, set_default_openai_client, OpenAIChatCompletionsModel, set_tracing_disabled
 
-api_key = "AIzaSyDMZ6DAaHACuPxfThpJrPnHkgXHMpoHnKQ"
+api_key = ""
 model="gemini-2.5-flash-lite"
 
 external_client = AsyncOpenAI(
