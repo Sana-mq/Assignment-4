@@ -1,0 +1,19 @@
+[project]
+name = "agents-packaged"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sana Ahmed", email = "sana.moizaq@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.2.7",
+]
+
+[project.scripts]
+hello = "agents_packaged.main:run_agent"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
